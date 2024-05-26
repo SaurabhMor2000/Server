@@ -9,7 +9,9 @@ const cors = require('cors');
 app.use(bodyParser.json());
 
 const corsOptions = {
-    origin: 'https://6637372d2788c4a2601f42b8--tubular-sprite-5720d1.netlify.app', // Specify the origin of your React app
+    // origin: 'https://6637372d2788c4a2601f42b8--tubular-sprite-5720d1.netlify.app', // Specify the origin of your React app
+	
+    origin: 'https://code-editor-a4676.web.app',
     methods: ['GET', 'POST'], // Specify allowed methods
     allowedHeaders: ['Content-Type'], // Specify allowed headers
     credentials: true // Allow cookies to be sent with requests
